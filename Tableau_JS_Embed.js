@@ -99,6 +99,17 @@ window.onload= function() {
 	};
 
 	vizOPMedicareAvgPayment = new tableau.Viz(placeholder04, vizURL04, options04);
+
+	var placeholder05 = document.getElementById('myOPMedicareAvgPayment');
+	var vizURL05 = 'https://public.tableau.com/views/MedicareChargeProject_0/DistributionAnalysisOutpatientMedicareAvgPayment';
+	var options05 = {
+		width: '1280px',
+		height: '720px',
+		hideToolbar: true,
+		hideTabs: true
+	};
+
+	vizIPOP_Pay_Hospital = new tableau.Viz(placeholder05, vizURL05, options05);
 	
 	var placeholder15 = document.getElementById('mySacPoliceDispatchViz');
 	var vizURL15 = 'https://public.tableau.com/views/SacPoliceDispatchDashboard/SacramentoPoliceDispatchAnalysis';
