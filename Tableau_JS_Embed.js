@@ -100,7 +100,7 @@ window.onload= function() {
 
 	vizOPMedicareAvgPayment = new tableau.Viz(placeholder04, vizURL04, options04);
 
-	var placeholder05 = document.getElementById('myOPMedicareAvgPayment');
+	var placeholder05 = document.getElementById('myIPOP_Pay_Hospital');
 	var vizURL05 = 'https://public.tableau.com/views/MedicareChargeProject_0/IPOPPaymentDashboard';
 	var options05 = {
 		width: '1280px',
