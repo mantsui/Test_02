@@ -1,5 +1,5 @@
 // Initialize the viz variable 
-var vizMedicareIP01, vizMedicareOP01, vizSacPoliceDispatch, vizIPMedicareAvgPayment, vizOPMedicareAvgPayment;
+var vizMedicareIP01, vizMedicareOP01, vizSacPoliceDispatch, vizIPMedicareAvgPayment, vizOPMedicareAvgPayment, vizIPOP_Pay_Hospital;
 
 window.onload= function() {
 // When the webpage has loaded, load the viz
